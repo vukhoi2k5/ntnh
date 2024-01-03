@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu của Huyền </title>
+    <link rel="stylesheet" href="stype.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/snapedit_1701786894764.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="ttcn">Full name : Nguyễn Thị Ngọc Huyền </p>
+            <p class="ttcn">Date of birth : 21/09/2003</p>
+            <p class="ttcn">Sex: Female</p>
+            <p class="ttcn">Place of origin: em hông biết @@ </p>
+            <p class="ttcn">Place of residence: em hông biết @@ </p>
+
+            <h2 class="ttcn">Hobbies:</h2>
+            <p class="ttcn"> ****************</p>
+            <h2 class="ttcn">Favorite food:</h2>
+            <P class="ttcn">****************</P>
+            <h2 class="ttcn">Places I want to visit:</h2>
+            <P class="ttcn">****************</P>
+
+            <a href="index.html" class="btn">Back</a>
+
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        ScrollReveal({ 
+            /*reset: true,*/
+            distance: '80px',
+            duration: 2000,
+            delay:200,
+
+        });
+
+        ScrollReveal().reveal(' .heading', { origin:'top'});
+        ScrollReveal().reveal(' .about-img', { origin:'left'});
+        ScrollReveal().reveal(' .ttcn,.btn', { origin:'bottom'});
+
+
+    </script>
+
+
+
+</body>
+</html>
